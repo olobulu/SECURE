@@ -11248,7 +11248,7 @@ header.masthead .masthead-heading {
 .timeline .timeline-body > p {
   margin-bottom: 0;
 }
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .timeline:before {
     left: 50%;
     transform: translateX(-50%);
@@ -11280,7 +11280,6 @@ header.masthead .masthead-heading {
     text-align: center; /* Center align text */
   }
 }
-
 
 @media (min-width: 768px) {
   .timeline:before {
